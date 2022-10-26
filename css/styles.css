@@ -1,0 +1,355 @@
+
+/* GENERAL STYLES */
+
+
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-background-color:#fff;
+    --secondary-background-color:#2F303A;
+    --third-background-color:#F5F4FA;
+    --primary-text-color-theme-light:#212121;
+    --secondary-text-color-theme-light:#757575;
+    --third-text-color-theme-dark:rgba(255, 255, 255, 0.6);
+    --primary-text-color-theme-dark: #FFFFFF;
+    --accent-color:#2196F3;
+    --logo-color:#000000;
+    --order-button-background-color: #188CE8;
+}
+
+
+
+body {
+    background-color:var(--primary-background-color);
+    color:var(--primary-text-color-theme-light);
+    font-family:'Roboto', sans-serif;
+    
+}
+
+.list {
+    list-style: none; 
+}
+
+.link { 
+    text-decoration: none;  
+}
+.link:hover, .link:focus {
+    color:var(--accent-color) ; 
+}
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.our-future{
+    color: var(--secondary-text-color-theme-light); 
+}
+
+/* Header */
+ 
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: var(--logo-color);
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+
+
+.site-nav .link {
+    color: var(--primary-text-color-theme-light);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-theme-light);
+}
+
+/* CONTACTS - HEADER */
+
+.contact-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color-theme-light);
+}
+
+.contact-email,
+.contact-tel {
+    color: var(--secondary-text-color-theme-light);
+}
+
+.adress-city:hover,
+.adress-city:focus,
+.contact-email:hover,
+.contact-email:focus,
+.contact-tel:hover,
+.contact-tel:focus {
+    color: var(--accent-color);
+}
+
+
+/* Hero */
+
+.hero{
+    background:var( --secondary-background-color);        
+} 
+   
+
+ .hero-solution {
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color:var(--primary-text-color-theme-dark );
+    text-transform: uppercase;
+}     
+  
+ /* Hero button */
+
+
+
+.hero-btn-order {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.15 );
+    border-radius: 4px;
+    background-color:var(--accent-color);
+    color: var(--primary-text-color-theme-dark);
+    display: flex;
+    cursor: pointer;
+
+}
+.hero-btn-order:focus ,
+.hero-btn-order:hover {
+    
+    background-color:var(--order-button-background-color) ;
+}
+
+
+
+ /* Peculiarities */
+
+.titel {
+    list-style: none; 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.our-future{
+   
+   font-size: 14px;
+   line-height: 1.71; 
+   letter-spacing: 0.03em;
+   color: var(--secondary-text-color-theme-light);
+}
+
+.about-us{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color-theme-light);
+}
+
+/* Our-team */
+
+
+.team{
+   background: var(--third-background-color); 
+    
+}
+.our-team-list{
+    background-color: var(--primary-background-color);
+}
+
+.our-teams{
+    font-weight: 700;
+    font-size: 36px;
+    line-height:1.16 ;
+    text-align: center;
+}
+
+/*Team-cards*/
+
+.our-team{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color-theme-light);
+    text-align: center;
+
+} 
+
+.our-team-card{
+    text-align: center;
+    font-size: 16px;
+    line-height:1.19;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-light);
+    
+} 
+
+/* Contacts*/
+
+.page-footer {
+    background-color: var(--secondary-background-color);
+}
+
+.cnt-adres-link{
+
+ background-color:var(--secondary-background-color) 
+}
+
+.adress-list {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71; 
+}
+.adress-city {
+    color: var(--primary-text-color-theme-dark);
+}
+
+
+.cnt-footer a {
+    color: var(--third-text-color-theme-dark);
+}
+
+.cnt-email-link{
+ 
+ color: var(--third-text-color-theme-dark);
+ 
+    
+}
+
+.cnt-tel-link{
+ 
+ color:var(--third-text-color-theme-dark);
+ 
+}
+
+
+
+.logo-studio{
+    
+    color:var(--primary-text-color-theme-dark);  
+}
+
+
+
+                   /* Poftfolio*/
+
+
+
+ 
+
+.choise-site-btn{
+
+     font-family: var(--primary-font);
+     font-weight: 500;
+     font-size: 16px;
+     line-height:1.63;
+     text-align: center;
+     letter-spacing: 0.03em;
+     color:var(--primary-text-color-theme-light);
+     background-color: var(--third-background-color); 
+     border-radius: 4px;
+     cursor: pointer; 
+
+     
+}
+
+.choise-site-btn:focus ,
+.choise-site-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-text-color-theme-dark); 
+}   
+
+.choise{
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+}
+
+         /* Projects*/
+
+.site-project {
+     
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color-theme-light); 
+     
+}
+
+.site-group{
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--secondary-text-color-theme-light);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
