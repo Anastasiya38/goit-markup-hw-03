@@ -253,6 +253,7 @@ img {
 
 
  /* Peculiarities */
+
  .section {
     display: block;
     padding-top: 94px;
@@ -268,7 +269,7 @@ img {
 color: var(--primary-text-color-theme-light);
 }
 
-.titel {
+.title {
     list-style: none; 
     font-weight: 700;
     font-size: 14px;
